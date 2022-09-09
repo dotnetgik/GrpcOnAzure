@@ -15,7 +15,7 @@ namespace GrpcOnAzure.Services
         {
             return Task.FromResult(new HelloReply
             {
-                Message = "Hello " + request.Name
+                Message = "Hello  My Name is " + request.Name
             });
         }
     }

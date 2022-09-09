@@ -5,7 +5,7 @@ using GrpcOnAzure;
 
 Console.WriteLine("Hello, World!");
 // The port number must match the port of the gRPC server.
-using var channel = GrpcChannel.ForAddress("https://grpconazure20220902110431.azurewebsites.net/");
+using var channel = GrpcChannel.ForAddress("https://grpcdemobymangesh.azurewebsites.net/");
 var client = new Greeter.GreeterClient(channel);
 var reply = await client.SayHelloAsync(
     new HelloRequest { Name = "GreeterClient Mangesh" });
