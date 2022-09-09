@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcOnAzure", "GrpcOnAzure\GrpcOnAzure.csproj", "{EF0B2C0E-A79A-4384-96B2-34DCE062264D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grpclient", "Grpclient\Grpclient.csproj", "{3DD5BFC0-1B33-4F02-90E8-537292C0DC5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF0B2C0E-A79A-4384-96B2-34DCE062264D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0B2C0E-A79A-4384-96B2-34DCE062264D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0B2C0E-A79A-4384-96B2-34DCE062264D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0B2C0E-A79A-4384-96B2-34DCE062264D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD5BFC0-1B33-4F02-90E8-537292C0DC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD5BFC0-1B33-4F02-90E8-537292C0DC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD5BFC0-1B33-4F02-90E8-537292C0DC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD5BFC0-1B33-4F02-90E8-537292C0DC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C50C979B-EB16-4163-9D4F-6B5CB0EFC54C}
+	EndGlobalSection
+EndGlobal
